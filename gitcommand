@@ -7,3 +7,5 @@
 查看提交历史  git log / git log --pretty=oneline
 查看命令历史  git reflog
 使用指定版本  git reset --hard commited_id
+丢弃工作区的修改（还未add到stage区域）  git checkout -- <file>
+丢弃暂存区的修改（已经add到stage区域）  git reset HEAD <file>
