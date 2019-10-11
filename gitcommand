@@ -20,3 +20,4 @@
 创建+切换分支  git checkout -b <name> / git switch -c <name>
 合并分支到当前分支 git merge <name>
 删除分支  git branch -d <name>
+用代参数的 git log 查看分支合并情况  git log --graph / git log --graph --pertty=oneline --abbrev-commit 
