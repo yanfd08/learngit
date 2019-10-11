@@ -10,3 +10,6 @@
 丢弃工作区的修改（还未add到stage区域）  git checkout -- <file>
 丢弃暂存区的修改（已经add到stage区域）  git reset HEAD <file>
 删除文件  git rm <file> + git commit
+关联远程库  git remote add origin git@server-name:path/rep-name.git
+关联后第一次推送master分支所有内容  git push -u origin master
+推送最新修改  git push origin master
