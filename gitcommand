@@ -13,3 +13,4 @@
 关联远程库  git remote add origin git@server-name:path/rep-name.git
 关联后第一次推送master分支所有内容  git push -u origin master
 推送最新修改  git push origin master
+克隆远程仓库  git clone git@server-name:path/rep-name.git
