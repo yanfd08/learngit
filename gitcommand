@@ -22,3 +22,6 @@
 删除分支  git branch -d <name>
 用带参数的 git log 查看分支合并情况  git log --graph / git log --graph --pertty=oneline --abbrev-commit 
 普通模式合并分支  git merge --no-ff -m "merge info" <name>
+储藏功能  git stash
+恢复现场  git stash pop / git stash apply  删除堆栈储藏 git stash drop
+挑拣提交 git cherry-pick <commit>
