@@ -25,3 +25,7 @@
 储藏功能  git stash
 恢复现场  git stash pop / git stash apply  删除堆栈储藏 git stash drop
 挑拣提交 git cherry-pick <commit>
+查看远程库信息  git remote / git remote -v
+本地创建和远程分支对应的分支  git checkout -b branch-name origin/branch-name
+抓取分支  git pull
+指定本地分支与远程分支的链接  git branch --set-upstream-to=origin/dev dev
